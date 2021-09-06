@@ -5,7 +5,7 @@ import logo from '../gs.jpg';
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        {/* <div className="container"> */}
+         {/* <div className="container">  */}
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo"/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,14 +17,18 @@ const Navbar = () => {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Projects</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Contact</a>
+        </li>
+      
         
       </ul>
       
     </div>
   </div>
-  
+  {/* </div> */}
 </nav>
     )
 }
